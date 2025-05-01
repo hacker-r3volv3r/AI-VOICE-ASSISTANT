@@ -1,0 +1,14 @@
+# Данные
+data/
+*.db
+*.sqlite
+
+# Аудиофайлы
+*.ogg
+*.wav
+*.mp3
+
+# Python
+__pycache__/
+*.pyc
+.env

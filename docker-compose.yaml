@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  assistant:
+    build: .
+    container_name: telegram_voice_assistant
+    restart: unless-stopped
+    environment:
+      - TELEGRAM_TOKEN=your_telegram_bot_token
+      - OPENAI_API_KEY=your_openai_key  # Опционально
+    volumes:
+      - ./data:/app/data
