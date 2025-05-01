@@ -12,12 +12,10 @@
 
 
 2. Запустите:
-```bash
-
+   ```bash
 cd telegram-voice-assistant
 docker-compose up -d --build
 
 3. Проверьте логи:
-```bash
-
+   ```bash
 docker logs -f telegram_voice_assistant
